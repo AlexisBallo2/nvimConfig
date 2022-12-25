@@ -38,7 +38,7 @@ vim.diagnostic.config({
 	float = true,
 })
 local map = vim.api.nvim_set_keymap
-map("n", "<Leader>f", ":LspZeroFormat <CR>", { noremap = true, silent = true })
+map("n", "<Leader>f", ":LspZeroFormat", { noremap = true, silent = true })
 --[[
 --
 --

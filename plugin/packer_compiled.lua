@@ -109,6 +109,11 @@ _G.packer_plugins = {
     path = "/Users/desktop/.local/share/nvim/site/pack/packer/start/friendly-snippets",
     url = "https://github.com/rafamadriz/friendly-snippets"
   },
+  ["gitsigns.nvim"] = {
+    loaded = true,
+    path = "/Users/desktop/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
+    url = "https://github.com/lewis6991/gitsigns.nvim"
+  },
   harpoon = {
     loaded = true,
     path = "/Users/desktop/.local/share/nvim/site/pack/packer/start/harpoon",
@@ -175,11 +180,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/desktop/.local/share/nvim/site/pack/packer/start/undotree",
     url = "https://github.com/mbbill/undotree"
-  },
-  ["vim-fugitive"] = {
-    loaded = true,
-    path = "/Users/desktop/.local/share/nvim/site/pack/packer/start/vim-fugitive",
-    url = "https://github.com/tpope/vim-fugitive"
   }
 }
 
