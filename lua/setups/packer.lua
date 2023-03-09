@@ -1,7 +1,7 @@
 vim.cmd.packadd('packer.nvim')
 
 return require('packer').startup(function(use)
-	-- Packer can manage itself
+	use 'folke/tokyonight.nvim'
 	use 'wbthomason/packer.nvim'
 	use 'preservim/nerdtree'
 	-- Post-install/update hook with neovim command
