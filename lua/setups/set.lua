@@ -14,6 +14,8 @@ vim.o.scrolloff = 8
 vim.opt.signcolumn = 'yes'
 
 vim.keymap.set("n", "<leader>rr", ":source ~/.config/nvim/init.lua")
+vim.keymap.set("n", "<leader><Right>", "<Esc>:tabnext<CR>i")
+vim.keymap.set("n", "<leader><Left>", "<Esc>:tabprevious<CR>i")
 
 -- vim.cmd[[
 -- autocmd VimEnter * NERDTree
@@ -24,5 +26,9 @@ vim.keymap.set("n", "<leader>rr", ":source ~/.config/nvim/init.lua")
 
 vim.cmd[[
 vnoremap p "_dP
+
+map <leader>tn :tabnew<cr>
+
+
 ]]
 
